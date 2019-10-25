@@ -16,21 +16,22 @@ Usage
 
 ::
 
-   scala new sarkutz/spark-scala
+   sbt new sarkutz/spark-scala.g8
    make build
    make
+   tail -f out.log
 
 Create New Project
 ==================
 
 ::
 
-   $ scala new sarkutz/spark-scala
+   $ sbt new sarkutz/spark-scala.g8
    # Enter details when prompted.
 
 Example usage::
 
-   $ scala new sarkutz/spark-scala
+   $ sbt new sarkutz/spark-scala.g8
    name [Analysis Name]: Basic App
    classname [BasicApp]:
 
