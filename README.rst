@@ -44,6 +44,7 @@ Build the application::
 Execute the application::
 
    $ make
+   $ tail -f out.log
 
 
 **********
